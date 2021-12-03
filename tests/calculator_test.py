@@ -23,5 +23,5 @@ def test_calculator_multiply():
 
 def test_calculator_divide():
     calc = Calculator()
-    calc.division(10, 10)
-    assert calc.get_result() == 1
+    calc.division(10, 0)
+    assert calc.get_result() == 0
